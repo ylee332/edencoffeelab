@@ -6,7 +6,7 @@ const Container = styled.footer`
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #333333;
+  background-color: #353f46;
   color: #ffffff;
 `;
 
@@ -22,19 +22,20 @@ const SocialLink = styled.a`
   height: 3rem;
   margin-right: 1rem;
   font-size: 1.5rem;
-  color: #ffffff;
-  background-color: #c1413e;
+  color: #080e11;
+  background-color: #b1b1ab;
   border-radius: 50%;
   transition: background-color 0.2s ease-in-out;
 
   &:hover {
-    background-color: #ffffff;
+    background-color: #69716a;
     color: #c1413e;
   }
 `;
 
 const Copyright = styled.p`
   font-size: 1rem;
+  color: #ebebea;
 `;
 
 const Footer: React.FC = () => {
